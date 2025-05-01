@@ -37,19 +37,21 @@
                         <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Blog</a></li>
                         <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Pricing</a></li>
                         <li class="menu__list"><a href="#" class="menu__link" onclick="closeMenu()">Contact Us</a></li>
-                        <button class="btn" onclick="closeMenu()">Sign up</button>
+                        <li class="menu__list"><a href="#" class="menu__link menu__link--primary" onclick="closeMenu()">Sign Up</a></li>
+                        
                     </ul>
                 </div>
             </nav>
         </div>
     </div>
     <header>
+    <main>
         <div class="container">
             <div class="row">
                 <div class="header__description">
                     <h1>Beautiful React Templates <span class="purple">for you</span>
                     </h1>
-                    <p class="header__description--para">Our templates are easy to setup, understand and customize. Fully modular componenets with a variety of pages and components.</p>
+                    <p class="header__description--para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
                     <div class="header__email">
                         <input type="text" class="header__email--input" placeholder="Your Email Address">
                         <button class="header__email--btn">Get Started</button>
@@ -59,8 +61,7 @@
                 </div>
                     <figure class="header__img--wrapper">
                     <img src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="" class="header__img">
-                </figure>
-            </div>
+                    </figure>
             </div>
         </div>
     </header>
@@ -68,16 +69,14 @@
 
     <section id="features">
         <div class="container">
-            <div class="row">
+            <div class="row__narrow">
                 <div class="features__container">
-                    <div class="row__narrow">
                         <h4 class="section__tag">FEATURES</h4>
                     <h2 class="service__title--features">We have Amazing <span class="purple">Service.</span></h2>
                     <div class="service__description--para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto aperiam aspernatur reiciendis beatae ut quas quisquam, quasi nisi illum tempore.</div>
-                </div>
                 <div class="services">
                     <div class="service">
-                        <div class="service_row">
+                        <div class="service__row">
                             <figure class="service__img--wrapper">
                                 <img src="/assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="service__img" alt="">
                             </figure>
@@ -88,7 +87,7 @@
                         </div>
                     </div>
                     <div class="service">
-                        <div class="service_row">
+                        <div class="service__row">
                             <figure class="service__img--wrapper">
                                 <img src="/assets/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" class="service__img" alt="">
                             </figure>
@@ -99,7 +98,7 @@
                         </div>
                     </div>
                     <div class="service">
-                        <div class="service_row">
+                        <div class="service__row">
                             <figure class="service__img--wrapper">
                                 <img src="/assets/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" class="service__img" alt="">
                             </figure>
@@ -110,7 +109,7 @@
                         </div>
                     </div>
                     <div class="service">
-                        <div class="service_row">
+                        <div class="service__row">
                             <figure class="service__img--wrapper">
                                 <img src="/assets/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" class="service__img" alt="">
                             </figure>
@@ -121,7 +120,7 @@
                         </div>
                     </div>
                     <div class="service">
-                        <div class="service_row">
+                        <div class="service__row">
                             <figure class="service__img--wrapper">
                                 <img src="/assets/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" class="service__img" alt="">
                             </figure>
@@ -132,7 +131,7 @@
                         </div>
                     </div>
                     <div class="service">
-                        <div class="service_row">
+                        <div class="service__row">
                             <figure class="service__img--wrapper">
                                 <img src="/assets/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" class="service__img" alt="">
                             </figure>
@@ -142,8 +141,9 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                 </div>
-            </div>
+                </div>
             </div>
         </div>
     </section>
@@ -151,8 +151,8 @@
         <div class="container">
             <div class="row">
                 <div class="quality__description">
-                    <div class="section__title">QUALITY WORK</div>
-                    <h2 class="quality__title">Designed & Developed by <span class="purple">Professionals.</span>
+                    <div class="section__tag">QUALITY WORK</div>
+                    <h2 class="section__title">Designed & Developed by <span class="purple">Professionals.</span>
                         <p class="quality__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum at illum vero eos ipsa debitis? Similique ullam illo non repellat tempora necessitatibus fugiat perspiciatis rem! Aliquam dolores facilis nihil libero!</p>
                     </h2>
                     <button class="btn">Learn More</button>
@@ -205,7 +205,7 @@
         <div class="container">
             <div class="row">
                 <div class="values__description">
-                    <div class="section__tag">values</div>
+                    <div class="section__tag">Values</div>
                     <h2 class="section__title">We Always Abide by Our <span class="purple">Principles.</span></h2>
                     <div class="section__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe magnam possimus soluta enim dolorem dolore temporibus cumque nulla voluptates accusantium!</div>
                     <div class="values__list">
@@ -243,7 +243,6 @@
                 <div class="section__tag">Pricing</div>
                 <h2 class="section__title">Reasonable & Flexible <span class="purple">Plans.</span></h2>
                 <div class="section__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quam alias et atque nisi temporibus tempore ratione. Similique, quibusdam excepturi.</div>
-            </div>
             <div class="plans">
                 <div class="plan">
                     <div class="plan__stripe"></div>
@@ -299,8 +298,9 @@
                          <div class="plan__bottom">
                          <button class="plan__button">BUY NOW</button>
                         </div>
-                </div>
-            </div>     
+                 </div>
+                </div>  
+            </div>   
         </div>  
     </section>
 
@@ -319,7 +319,7 @@
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                 <h3 class="testimonial__title">Amazing User Experience</h3>
-                <p class="testimonial__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae tempora ducimus consectetur ex, placeat reiciendis aliquid natus! Eos laborum eaque accusamus accusantium. Dolore nesciunt officiis maxime perspiciatis reprehenderit iste iusto. Repudiandae laborum ea voluptate minus aut totam! Voluptates, animi recusandae?</p>
+                <p class="testimonial__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat similique possimus minus, sapiente alias adipisci reiciendis ut ad perferendis dolore?</p>
                 <div class="testimonial__bottom">
                     <div class="testimonial__profile">
                         <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80" alt="" class="testimonial__img">
@@ -360,6 +360,7 @@
             </div>
         </div>
     </section>
+</main>
 </body>
 
 <footer>
